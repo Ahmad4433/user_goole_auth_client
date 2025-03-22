@@ -47,7 +47,7 @@ const Login = () => {
     const result = await httpAction(data);
     setLoading(false);
     if (result?.status) {
-      navigate("/profile");
+      navigate("/");
     }
   };
 
