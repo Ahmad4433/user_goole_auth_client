@@ -1,0 +1,53 @@
+.page_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 1.2rem;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.page_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_header p {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #333;
+  font-size: 1.2rem;
+  letter-spacing: 0.2px;
+}
+.page_header span {
+  color: gray;
+  text-transform: capitalize;
+}
+
+.page_header svg {
+  color: #0000ff;
+  font-size: 1.6rem;
+}
+
+.otp_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.otp_timer {
+  font-weight: 600;
+  display: inline-block;
+  width: 50%;
+}
+
+@media (max-width: 756px) {
+  .page_card {
+    top: 40%;
+  }
+}
